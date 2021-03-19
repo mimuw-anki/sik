@@ -1,0 +1,156 @@
+deck_id: 3892092678
+deck_name: Sieci komputerowe MIMUW
+file_id: sik-wyklad-2
+
+
+1
+Czym są programy sieciowe?
+To programy uruchamiane na systemach końcowych komunikujące się ze sobą za pośrednictwem sieci.
+
+2
+Podaj główne typy architektur aplikacji sieciowych.
+Klient-serwer, peer-to-peer (P2P), hybrydowa (mieszanka obu).
+
+3
+Co jest najważniejszą cechą protokołu TCP?
+Zapewnia on niezawodny transfer danych - bez błędów i w odpowiedniej kolejności.
+
+4
+Co oznacza, że protokół TCP jest zorientowany na połączenie?
+Składa się on z etapów: nawiązywania połączenia (faza negocjacji), wysyłania komunikatów i zakończenia połączenia.
+
+5
+Co określa protokół warstwy aplikacji?
+- Typy komunikatów <br> - składnię różnych typów komunikatów <br> - semantykę i znaczenie pól <br> - zasady i czas wysyłania i odbierania komunikatów
+
+6
+Czym są dokumenty RFC?
+Są to dokumenty zawierające specyfikację protokołów sieciowych.
+
+7
+Z czego składa się strona WWW?
+Składa się z obiektów, czyli plików (np. HTML, JPEG, pliki audio) posiadających swój adres URL.
+
+8
+Co zawiera adres URL?
+- protokół/usługę <br> - nazwę hosta <br> - port <br> - ścieżkę do zasobu <br> - parametry <br> - fragment
+
+9
+Rozwiń skrót HTTP.
+HyperText Transfer Protocol.
+
+10
+Co definiuje protokół HTTP?
+Strukturę komunikatów oraz sposób w jaki klient (np. przeglądarka) żąda strony i w jaki sposób serwer (serwer WWW) ją przesyła.
+
+11
+Z jakiego protokołu warstwy transportowej korzysta HTTP?
+TCP
+
+12
+Jaki jest domyślny port dla protokołu HTTP?
+80
+
+13
+Czy HTTP jest protokołem stanowym?
+Nie, HTTP jest protokołem bezstanowym, ponieważ serwer nie przechowuje informacji na temat klienta.
+
+14
+Co oznacza "połączenie nietrwałe" w HTTP?
+Każda para żądanie-odpowiedź jest wysyłana w osobnym połączeniu TCP.
+
+15
+Co oznacza "połączenie trwałe" w HTTP?
+Wiele par żądanie-odpowiedź jest wysyłanych w jednym połączeniu TCP.
+
+16
+Czym jest potokowanie w HTTP?
+To generowanie wielu żądań jedno po drugim, bez czekania na odpowiedź.
+
+17
+Z jakich elementów składa się zapytanie HTTP?
+Z linii startowej (metoda, zasób, wersja protokołu), nagłówków i ciała zapytania.
+
+18
+Jakie są podstawowe metody HTTP?
+GET, POST, HEAD, PUT, DELETE
+
+19
+Z jakich elementów składa się odpowiedź HTTP?
+Z linii startowej (wersja protokołu, kod statusu, komunikat kodu), nagłówków i ciała zapytania.
+
+20
+Do czego typowo służą serwery proxy?
+Do buforowania zawartości bliżej (fizycznie) klientów.
+
+21
+Czym jest HTTPS?
+Szyfrowaną wersją protokołu HTTP.
+
+22 
+Jaki jest domyślny port dla HTTPS?
+443
+
+23
+Rozwiń skrót TLS.
+Transport Layer Security
+
+24
+Do czego wykorzystywany jest protokół TLS?
+HTTPS wykorzystuje TLS do szyfrowania, uwierzytelniania i zapewniania integralności.
+
+25
+Czym jest system DNS?
+To rozproszona, hierarchiczna baza danych obsługiwana przez serwery DNS.
+
+26
+Jakie usługi zapewnia system DNS?
+- mapowanie nazw na adresy IP <br> - tworzenie aliasów hostów <br> - odwzorowanie odwrotne (adresów na nazwy) <br> - loadbalancing
+
+27
+Z jakiego protokołu warstwy transportowej i portu korzysta protokół DNS?
+UDP i portu 53.
+
+28
+Czym jest pełna nazwa domenowa węzła drzewa?
+To sekwencja etykiet na ścieżce od tego węzła do węzła głównego, z kropkami jako separatorami.
+
+29
+Podaj przykłady domen najwyższego poziomu.
+Np. com, edu, net oraz skróty nazw państw np. pl, fr.
+
+30
+Co to jest strefa w systemie DNS?
+Strefa to domena z wyłączeniem poddomen.
+
+31
+Co to są serwery lokalne DNS?
+Serwery lokalne nazywane domyślnymi serwerami nazw obsługują zapytania klientów i nie należą do hierarchii serwerów DNS.
+
+32
+Z jakich części składa się rekord DNS?
+(Nazwa, wartość, typ, TTL)
+
+33
+Co to jest rekord A w DNS?
+Nazwa hosta - adres IPv4.
+
+34
+Co to jest rekord AAAA w DNS?
+Nazwa hosta - adres IPv6.
+
+35
+Co to jest rekord PTR w DNS?
+Adres IP - nazwa hosta.
+
+36
+Co to jest rekord NS w DNS?
+Nazwa domeny - nazwa autorytatywnego serwera DNS.
+
+37
+Co to jest rekord CNAME w DNS?
+Alias - nazwa kanoniczna.
+
+38
+Co to jest rekord MX w DNS?
+Alias - nazwa kanoniczna serwera pocztowego.
