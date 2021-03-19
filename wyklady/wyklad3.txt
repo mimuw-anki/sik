@@ -1,0 +1,79 @@
+deck_id: 3892092678
+deck_name: Sieci komputerowe MIMUW
+file_id: sik-wyklad-3
+
+1
+Czym jest negatywne buforowanie w pliku strefy DNS?
+Jest to wartość oznaczająca jak długo serwer zapamiętuje informację, że nie udało mu się ustalić odpowiedzi dla zapytania.
+
+2
+Jaki jest rozmiar nagłówka w komunikacie DNS?
+12 bajtów.
+
+3
+Jakie informacje zawiera nagłówek w komunikacie DNS?
+1. identyfikator <br> 2. znaczniki <br> 3. liczba zapytań <br> 4. liczba odpowiedzi <br> 5. liczba rekordów w części Authority <br> 6. liczba rekordów dodatkowych
+
+4
+Jak działa load balancing w DNS?
+Serwer DNS zwraca wszystkie adresy powiązane z daną nazwą, a klient wysyła żądanie pod losowy z tych adresów.
+
+5
+Za co odpowiada warstwa transportowa?
+Za przekazywanie komunikatów między procesami tworzącymi aplikację po TCP lub UDP.
+
+6
+Jak nazywa się jednostka danych z nagłówkami z warstwy transportowej?
+Segment.
+
+7
+Jak nazywa się jednostka danych z nagłówkami z warstwy sieci?
+Datagram.
+
+8
+Czy warstwa sieci daje gwarancję dostarczenia datagramu?
+Nie, jest to usługa typu best effort.
+
+9
+Co to jest kontrola przepływu w TCP?
+Dostosowanie prędkości wysyłania do możliwości odbierania po stronie odbiorcy.
+
+10
+Co to jest kontrola przeciążenia w TCP?
+Dostosowanie prędkości wysyłania do możliwości przesyłowych sieci.
+
+11
+Czy multipleksowanie jest operacją specyficzną dla warstwy transportowej?
+Nie, występuje ono w różnych warstwach.
+
+12
+Czym jest interfejs gniazd?
+To API pomiędzy warstwą transportową a warstwą aplikacji.
+
+13
+Z czego składa się adres procesu?
+Z adresu IP hosta i numeru portu.
+
+14
+Na jakim porcie domyślnie nasłuchuje serwer SSH?
+22
+
+15
+Jaką kontrolę błędów zapewnia UDP?
+Podstawową przez sumę kontrolną komunikatu.
+
+16
+Czym są multipleksowanie i demultipleksowanie?
+To odpowiednio dodawanie oraz zdejmowanie z ramki informacji o odbiorcy i nadawcy oraz przekierowywanie treści komunikatu do następnej warstwy zgodnie z tymi informacjami.
+
+17
+Jak liczona jest suma kontrolna w UDP?
+Suma kontrolna w UDP to uzupełnienie binarne sumy wszystkich 16-bitowych słów segmentu.
+
+18
+Numery portów z jakiego zakresu są zastrzeżone?
+[0, 1023]
+
+19
+Jaka jest sieciowa kolejność bajtów?
+Big endian
