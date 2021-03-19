@@ -9,7 +9,7 @@ To programy uruchamiane na systemach końcowych komunikujące się ze sobą za p
 
 2
 Podaj główne typy architektur aplikacji sieciowych.
-Architektura klient-serwer, architektura peer-to-peer (P2P), architektura hybrydowa (mieszanka obu).
+Klient-serwer, peer-to-peer (P2P), hybrydowa (mieszanka obu).
 
 3
 Co jest najważniejszą cechą protokołu TCP?
@@ -21,7 +21,7 @@ Składa się on z etapów: nawiązywania połączenia (faza negocjacji), wysyła
 
 5
 Co określa protokół warstwy aplikacji?
-Typy komunikatów, składnię różnych typów komunikatów, semantykę i znaczenie pól, zasady i czas wysyłania i odbierania komunikatów.
+- Typy komunikatów <br> - składnię różnych typów komunikatów <br> - semantykę i znaczenie pól <br> - zasady i czas wysyłania i odbierania komunikatów
 
 6
 Czym są dokumenty RFC?
@@ -33,7 +33,7 @@ Składa się z obiektów, czyli plików (np. HTML, JPEG, pliki audio) posiadają
 
 8
 Co zawiera adres URL?
-Protokół/usługę, nazwę hosta, port, ścieżkę do zasobu, parametry, fragment
+- protokół/usługę <br> - nazwę hosta <br> - port <br> - ścieżkę do zasobu <br> - parametry <br> - fragment
 
 9
 Rozwiń skrót HTTP.
@@ -105,7 +105,7 @@ To rozproszona, hierarchiczna baza danych obsługiwana przez serwery DNS.
 
 26
 Jakie usługi zapewnia system DNS?
-Mapowanie nazw na adresy IP, tworzenie aliasów hostów, odwzorowanie odwrotne (adresów na nazwy) i loadbalacing.
+- mapowanie nazw na adresy IP <br> - tworzenie aliasów hostów <br> - odwzorowanie odwrotne (adresów na nazwy) <br> - loadbalancing
 
 27
 Z jakiego protokołu warstwy transportowej i portu korzysta protokół DNS?
