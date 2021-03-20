@@ -21,7 +21,7 @@ Składa się on z etapów: nawiązywania połączenia (faza negocjacji), wysyła
 
 5
 Co określa protokół warstwy aplikacji?
-- Typy komunikatów <br> - składnię różnych typów komunikatów <br> - semantykę i znaczenie pól <br> - zasady i czas wysyłania i odbierania komunikatów
+- typy komunikatów <br> - składnię różnych typów komunikatów <br> - semantykę i znaczenie pól <br> - zasady i czas wysyłania i odbierania komunikatów
 
 6
 Czym są dokumenty RFC?
@@ -133,24 +133,24 @@ Z jakich części składa się rekord DNS?
 
 33
 Co to jest rekord A w DNS?
-Nazwa hosta - adres IPv4.
+Nazwa hosta -> adres IPv4.
 
 34
 Co to jest rekord AAAA w DNS?
-Nazwa hosta - adres IPv6.
+Nazwa hosta -> adres IPv6.
 
 35
 Co to jest rekord PTR w DNS?
-Adres IP - nazwa hosta.
+Adres IP -> nazwa hosta.
 
 36
 Co to jest rekord NS w DNS?
-Nazwa domeny - nazwa autorytatywnego serwera DNS.
+Nazwa domeny -> nazwa autorytatywnego serwera DNS.
 
 37
 Co to jest rekord CNAME w DNS?
-Alias - nazwa kanoniczna.
+Alias -> nazwa kanoniczna.
 
 38
 Co to jest rekord MX w DNS?
-Alias - nazwa kanoniczna serwera pocztowego.
+Alias -> nazwa kanoniczna serwera pocztowego.
