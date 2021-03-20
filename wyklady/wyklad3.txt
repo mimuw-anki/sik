@@ -6,6 +6,18 @@ file_id: sik-wyklad-3
 Czym jest negatywne buforowanie w pliku strefy DNS?
 Jest to wartość oznaczająca jak długo serwer zapamiętuje informację, że nie udało mu się ustalić odpowiedzi dla zapytania.
 
+1-1
+Czym jest odświeżanie w pliku strefy DNS?
+Jest to wartość oznaczająca co jaki czas serwer podrzędny synchronizuje się z serwerem nadrzędnym.
+
+1-2
+Czym jest ponawianie w pliku strefy DNS?
+Jest to wartość oznaczająca co jaki czas serwer podrzędny będzie próbował kontaktować się z serwerem nadrzędnym jeżeli nie ma z nim kontaktu.
+
+1-3
+Czym jest wygasanie w pliku strefy DNS?
+Jest to wartość oznaczająca po jakim czasie nieaktywności serwera nadrzędnego, serwer podrzędny powinien nię wyłączyć.
+
 2
 Jaki jest rozmiar nagłówka w komunikacie DNS?
 12 bajtów.
