@@ -16,7 +16,7 @@ Jest to wartość oznaczająca co jaki czas serwer podrzędny będzie próbował
 
 1-3
 Czym jest wygasanie w pliku strefy DNS?
-Jest to wartość oznaczająca po jakim czasie nieaktywności serwera nadrzędnego, serwer podrzędny powinien nię wyłączyć.
+Jest to wartość oznaczająca po jakim czasie nieaktywności serwera nadrzędnego, serwer podrzędny powinien się wyłączyć.
 
 2
 Jaki jest rozmiar nagłówka w komunikacie DNS?
