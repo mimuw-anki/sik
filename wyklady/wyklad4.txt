@@ -1,0 +1,52 @@
+deck_id: 3892092678
+deck_name: Sieci komputerowe MIMUW
+file_id: sik-wyklad-4
+
+1
+Jaki jest główny cel protokołu TCP?
+Zapewnienie niezawodnego transferu danych.
+
+2
+Jak wykryć uszkodzenie pakietu?
+Licząc sumę kontrolną.
+
+3
+W jaki sposób nadawca może dowiedzieć się, że odbiorca odebrał uszkodzone dane?
+Przez mechanizm potwierdzeń pozytywnych (dostałem poprawne) i negatywnych (dostałem uszkodzone).
+
+4 
+Czym jest retransmisja?
+To ponowne wysłanie pakietu, który przy poprzednim wysłaniu uległ uszkodzeniu.
+
+5 
+Co się dzieje, kiedy pakiet z potwierdzeniem (w TCP) ulegnie uszkodzeniu?
+Następuje retransmisja.
+
+6
+Jak zapewnić właściwą kolejność pakietów danych?
+Przez nadawanie pakietom numerów sekwencyjnych.
+
+7
+Jak wykryć utratę pakietu w TCP?
+Przez mechanizm timeoutu potwierdzenia (wymaga zegara).
+
+8
+Co to jest RTT?
+Round-trip time - łączny czas potrzebny na przesłanie pakietu do odbiorcy i potwierdzenia do nadawcy.
+
+9
+Ile powinno wynosić oczekiwanie na uzyskanie potwierdzenia przed uznaniem pakietu za zgubiony?
+Więcej niż round-trip time (RTT).
+
+10  
+Co to jest potokowanie?
+Wysyłanie wielu pakietów bez oczekiwania na potwierdzenie poprzednio wysłanych. 
+
+11
+Co to znaczy, że TCP jest full duplex?
+Umożliwia na wysyłanie i odbieranie danych w tym samym czasie przez obie strony.
+
+12 
+Czym jest buforowanie w TCP?
+Pakiety mogą się zagubić, więc obie strony zbierają wysyłane/odbierane dane w buforach i przekazują wyżej/zwalniają dopiero kiedy uzupełnią/retransmitują wcześniejsze, zagubione pakiety.
+
