@@ -1,0 +1,95 @@
+deck_id: 3892092678
+deck_name: Sieci komputerowe MIMUW
+file_id: sik-wyklad-6
+
+1
+Jaki jest podstawowy protokół warstwy sieci?
+IP - Internet Protocol.
+
+2
+Jakie jest zadanie warstwy sieci?
+Przesłanie danych od jednego urządzenia do drugiego.
+
+3
+Co to znaczy, że protokół IP jest best-effort?
+To znaczy, że nie daje gwarancji dostarczenia komunikatu.
+
+4
+Ile oktetów ma adres IPv4?
+4
+
+5
+Ile oktetów ma adres IPv6?
+16
+
+6
+Z ilu oktetów składa się pojedynczy segment adresu IPv6?
+2
+
+7
+W adresie IPv6 stosuje się małe czy wielkie litery?
+Małe
+
+8
+Co oznacza "::" w adresie IPv6?
+Oznacza ciąg sąsiadujących segmentów zer
+
+9
+Czy "::" może pojawić się w adresie IPv6 wielokrotnie?
+Nie
+
+10
+Czy w uproszczonej reprezentacji adresu IPv6 pomija się zera wiodące?
+Tak
+
+11
+Jakie są klasy adresów IPv4?
+A, B, C, D, E
+
+12
+Jakimi ciągami bitów zaczynają się poszczególne klasy adresów IPv4?
+A 0, B 10, C 110, D 1110, E 1111
+
+13
+W jaki sposób liczy się adres sieci?
+Bitwise and adresu i maski.
+
+14
+Jak wygląda bitowy zapis maski CIDR?
+To ciąg 32 bitów: najpierw ciąg jedynek, potem ciąg zer
+
+15
+Jak wygląda dziesiętny zapis maski CIDR?
+Tak jak adres IPv4 dla takiego samego ciągu bitów
+
+16
+Jak wygląda prefiksowy zapis maski CIDR?
+/n, gdzie n to liczba jedynek
+
+17
+W jaki sposób liczy się adres rozgłoszeniowy?
+adres | (~maska)
+
+18
+Ile jest adresów w podsieci o masce /12?
+2^20-2, bo 20 bitów to adres hosta, a 2 adresy są zarezerwowana na adres podsieci i adres rozgłoszeniowy
+
+19
+Ile jest adresów w podsieci o masce /12?
+2^20-2, bo 20 bitów to adres hosta, a 2 adresy są zarezerwowana na adres podsieci i adres rozgłoszeniowy
+
+20
+Jaki jest adres rozgłoszeniowy podsieci 192.168.0.0/16?
+192.168.255.255 - pole na adres hosta to same jedynki
+
+21
+Jaki jest adres podsieci 192.168.0.0/16?
+192.168.0.0 - pole na adres hosta to same zera
+
+22
+Jaki jest pierwszy adres w podsieci 192.168.0.0/16?
+192.168.0.1
+
+23
+Jaki jest pierwszy adres w podsieci 192.168.0.0/16?
+192.168.255.254
