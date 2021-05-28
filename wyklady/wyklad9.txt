@@ -1,0 +1,48 @@
+deck_id: 3892092678
+deck_name: Sieci komputerowe MIMUW
+file_id: sik-wyklad-9
+
+1
+Do czego służy protokół ICMP (Internet Control Message Protocol)?
+Uzupełnia on funkcjonalność protokołu IP i służy do przesyłania informacji o błędach lub informacji kontrolnych.
+
+2
+Czym różni się ICMPv4 od ICMPv6?
+ICMPv6 służy dodatkowo do przesyłania komunikatów związanych z konfigurowaniem hosta.
+
+3
+Gdzie trafiają komunikaty ICMP o błędach?
+Do procesów użytkownika lub do warstwy wyższej, wraz z kopią części datagramu, który był przyczyną błędu.
+
+4
+Gdzie trafiają informacyjne komunikaty ICMP?
+Do systemu operacyjnego.
+
+5
+Jakie są typowe komunikaty ICMP?
+Redirect, Time Exceeded, Parameter Problem, Router Solicitation, Router Advertisement, Echo Request, Echo Reply
+
+6
+Czy komunikaty Redirect ICMP są honorowane przez routery?
+Nie, ponieważ nie zawierają żadnego uwierzytelnienia i mogą być spreparowane przez atakującego.
+
+7
+Jakie przykładowe metody stosowane są w warstwie łącza do wykrywania błędów?
+Kontrola parzystości, suma kontrolna, kontrola nadmiarowości cyklicznej (CRC)
+
+8
+Na czym polega kontrola parzystości?
+To sprawdzenie, czy liczba zapalonych bitów w całym komunikacie jest parzysta czy nieparzysta.
+
+9
+Która z metod wykrywania błędów warstwy łącza jest realizowana sprzętowo?
+Kontrola nadmiarowości cyklicznej (CRC)
+
+10
+Co to jest adres MAC?
+Unikalny 48-bitowy adres w warstwie łącza - adres karty sieciowej.
+
+11
+Do czego służy protokół ARP?
+Do translacji adresów IP na adresy MAC.
+
