@@ -39,20 +39,16 @@ Dysponują kompletną informacją na temat stanu połączeń i ich kosztu.
 Czym charakteryzują się zdecentralizowane protokoły trasowania dynamicznego?
 Komunikacja zachodzi między sąsiednimi węzłami, a wyznaczanie tras odbywa się w sposób iteracyjny.
 
-10
-Czym charakteryzują się hybrydowe protokoły trasowania dynamicznego?
-
-
 11 
 W jakich krokach działa algorytm stanu łącza?
 1. Rozgłaszanie stanu - każdy router przesyła infirmację o sobie do wszystkich pozostałych routerów<br>2. Po zebraniu informacji router wykorzystując np. algorytm Dijkstry tworzy drzewo ścieżek o najmniejszym koszcie ustawiając siebie jako źródło
 
 12
 Jakie są wady algorytmu wektora odległości?
-Nie radzi sobie dobrze ze zmianami topologii sieci, wymaga wielu iteracji, jest "gadatliwy" - przesyła dużo informacji
+- nie radzi sobie dobrze ze zmianami topologii sieci<br>- wymaga wielu iteracji<br>- jest "gadatliwy" - przesyła dużo informacji
 
 13
-W jakich krokach działa algorytm wektora odległoścu?
+W jakich krokach działa algorytm wektora odległości?
 Element rozproszony - każdy węzeł otrzymuje informacje od swoich sąsiadów, przeprowadza obliczenia i wyniki przekazuje sąsiadom<br>Element iteracyjny - Proces jest kontynuowany do momentu, aż sąsiedzi przestaną wymieniać się komunikatami
 
 14
