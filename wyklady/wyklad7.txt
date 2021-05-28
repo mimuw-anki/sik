@@ -28,11 +28,11 @@ Czym jest destination w tablicy tras?
 
 7
 Czym jest gateway w tablicy tras?
-Adresem następnego węzła. Wartość zerowa oznacza siec lokalną.
+Adresem następnego węzła. Wartość zerowa oznacza sieć lokalną.
 
 8
 Czym jest interfejs w tablicy tras?
-To interfejs, który powinien dostarczyć datagram.
+To interfejs dostarczający datagram.
 
 9
 Jak wybierany jest odpowiedni rekord jeżeli po nałożeniu masek dopasowane zostało kilka różnych?
