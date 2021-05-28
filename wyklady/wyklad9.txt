@@ -46,6 +46,3 @@ Unikalny 48-bitowy adres w warstwie łącza - adres karty sieciowej.
 Do czego służy protokół ARP?
 Do translacji adresów IP na adresy MAC.
 
-12
-Do czego służy protokół ARP?
-Do translacji adresów IP na adresy MAC.
