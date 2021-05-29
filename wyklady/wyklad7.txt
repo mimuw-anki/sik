@@ -1,0 +1,56 @@
+deck_id: 3892092678
+deck_name: Sieci komputerowe MIMUW
+file_id: sik-wyklad-7
+
+1
+Na jakie sposoby mogą być przydzielane adresy IP?
+1. Ręcznie<br>2. Dynamicznie, za pomocą usług sieciowych<br>3.Automatycznie
+
+2
+Co to jest DHCP?
+Dynamic host configuration protocol - protokół dynamicznego przydzielania adresów IP hostom w sieci.
+
+3
+Na jakiej zasadzie działa DHCP?
+Dzierżawy adresów hostom, które muszą periodycznie odnawiać dzierżawę, jeżeli chcą zachowować obecny adres.
+
+4
+Ile trwa okres dzierżawy adresu w DHCP?
+Od kilku minut do kilku dni.
+
+5
+Jakie informacje znajdują się w tablicy tras (w zakresie z wykładu)?
+Dla każdego rzędu: <br>- destination<br>- gateway<br>- genmask<br>- interface
+
+6
+Czym jest destination w tablicy tras?
+(Razem z genmask) jest kluczem po którym następuje dopasowanie adresu docelowego. Wartość zerowa odpowiada trasie domyślnej.
+
+7
+Czym jest gateway w tablicy tras?
+Adresem następnego węzła. Wartość zerowa oznacza sieć lokalną.
+
+8
+Czym jest interfejs w tablicy tras?
+To interfejs dostarczający datagram.
+
+9
+Jak wybierany jest odpowiedni rekord jeżeli po nałożeniu masek dopasowane zostało kilka różnych?
+Wybierany jest ten z najdłuższym pasującym prefiksem.
+
+10
+Co to jest NAT?
+Network address translation - translacja adresów prywatnych na globalne i globalnych na prywatne.
+
+11
+Na jakiej zasadzie działa NAT?
+Jest to tabela (adres wewnętrzny, port) -> (adres globalny, inny port).
+
+12
+Czy NAT pozwala na zainicjowanie komunikacji z hostem wewnętrznym z zewnątrz?
+Nie, pozwala tylko na inicjowanie połączeń przez hosty wewnętrzne oraz na komunikację zwrotną.
+
+13
+Jaki jest (pozytywny) efekt uboczny stosowania NAT?
+Ukrycie sieci prywatnej przed światem zewnętrznym i zabezpieczenie przed próbkowaniem sieci.
+
