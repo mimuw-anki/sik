@@ -1,0 +1,72 @@
+deck_id: 3892092678
+deck_name: Sieci komputerowe MIMUW
+file_id: sik-wyklad-8
+
+1
+Co to jest rozgłaszanie?
+Rozsyłanie pakietów do wszystkich odbiorców w sieci lokalnej.
+
+2
+Jakiego protokołu warstwy transportowej używa się przy rozgłaszaniu?
+Wyłącznie UDP.
+
+3
+Czy w protokole IPv6 jest możliwość rozgłaszania?
+Nie
+
+4
+Do czego typowo wykorzystuje się rozgłaszanie?
+Do wyszukiwania różnych serwerów w sieci lokalnej (np. DHCP).
+
+5
+Co to jest rozsyłanie grupowe?
+Mechanizm podobny do rozgłaszania, ale tylko do wyspecyfikowanej grupy.
+
+6
+Jaki zakres adresów ip to adresy grupowe?
+224.0.0.0 - 239.255.255.255 dla IPv4<br>
+ff00::/8 dla IPv6
+
+7
+Jakie są klasy protokołów trasowania dynamicznego?
+Globalne (algorytmy stanu łącza), zdecentralizowane (algorytmy wektora odległości) i hybrydowe.
+
+8
+Czym charakteryzują się globalne protokoły trasowania dynamicznego?
+Dysponują kompletną informacją na temat stanu połączeń i ich kosztu.
+
+9
+Czym charakteryzują się zdecentralizowane protokoły trasowania dynamicznego?
+Komunikacja zachodzi między sąsiednimi węzłami, a wyznaczanie tras odbywa się w sposób iteracyjny.
+
+11 
+W jakich krokach działa algorytm stanu łącza?
+1. Rozgłaszanie stanu - każdy router przesyła infirmację o sobie do wszystkich pozostałych routerów<br>2. Po zebraniu informacji router wykorzystując np. algorytm Dijkstry tworzy drzewo ścieżek o najmniejszym koszcie ustawiając siebie jako źródło
+
+12
+Jakie są wady algorytmu wektora odległości?
+- nie radzi sobie dobrze ze zmianami topologii sieci<br>- wymaga wielu iteracji<br>- jest "gadatliwy" - przesyła dużo informacji
+
+13
+W jakich krokach działa algorytm wektora odległości?
+Element rozproszony - każdy węzeł otrzymuje informacje od swoich sąsiadów, przeprowadza obliczenia i wyniki przekazuje sąsiadom<br>Element iteracyjny - Proces jest kontynuowany do momentu, aż sąsiedzi przestaną wymieniać się komunikatami
+
+14
+Co to jest system autonomiczny?
+To grupa sieci zarządzanych przez pojedynczą jednostkę i realizująca spójną politykę trasowania.
+
+15
+Jak są identyfikowane sieci autonomiczne?
+Za pomową 16 bitowego numeru ASN (autonomous system number).
+
+16
+Do czego służy protokół BGP (Border Gateway Protocol)?
+Pozwala każdej podsieci poinformować resztę internetu o swoim istnieniu.
+
+17
+Jak popularny jest protokół BGP?
+Korzystają z niego wszystkie systemy autonomiczne w internecie.
+
+18
+Jakie informacje zapewnia routerowi protokół BGP?
+Pozwala uzyskać informacje z sąsiednich systemów autonomicznych na temat osiągalności podsieci i wyznaczyć najlepszą trasę spośród dostępnych.
