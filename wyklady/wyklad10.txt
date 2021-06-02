@@ -33,3 +33,7 @@ To rozwiązanie w którym rozdzielamy płaszczyznę transmisji danych od płaszc
 8
 Co nazywamy przełącznikami SDN?
 Zarówno przełączniki z warstwy łącza jak i routery z warstwy sieci.
+
+9
+Co oznacza 40GBaseT?
+Rodzaj połączenia ethernetowego: szybkość 40 Gb/s, rodzaj sygnału (Base), nośnik fizyczny (T - skrętka).
