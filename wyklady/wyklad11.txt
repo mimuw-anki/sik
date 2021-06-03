@@ -1,0 +1,83 @@
+deck_id: 3892092678
+deck_name: Sieci komputerowe MIMUW
+file_id: sik-wyklad-11
+
+1
+Czym w sieciach bezprzewodowych jest tryb infrastrukturalny?
+Tryb działania, w którym hosty są związane ze stacją bazową, przez którą następuje łączenie z siecią (np. Wi-Fi).
+
+2
+Czym w sieciach bezprzewodowych jest tryb doraźny?
+Tryb działania bez infrastruktury, gdzie hosty same zajmują się adresowaniem, trasowaniem itp. (np. Bluetooth).
+
+3
+Czym jest propagacja wielościeżkowa?
+Sytuacja, w której sygnał przekazywany z nadajnika do odbiornika dociera za pomocą więcej niż jednej ścieżki (np. przez odbicie od przeszkody, podłoża).
+
+4
+Co to jest SNR?
+Signal to noise ratio - to miara mocy sygnału, stosunek sygnału do szumu odbieranych przez odbiornik.
+
+5
+Jak wpływa szybkość przesyłu na liczbę błędów dla ustalonej wartości SNR?
+Im wysza szybkość tym wyższy współczynnik błędów bitowych.
+
+6
+Na czym polega problem ukrytego węzła w sieciach bezprzewodowych?
+Access point otrzymuje sygnał z dwóch nadajników, ale nadajniki nie widzą sygnału z drugiego nadajnika (np. przez przeszkodę - ścianę), przez co nie są w stanie stosować standardowego algorytmu unikania kolizji.
+
+7
+Na czym polega problem zanikania w sieciach bezprzewodowych?
+Podobnie jak w przypadku ukrytego węzła, ale nadajniki nie widzą się nawzajem, bo znajdują się zbyt daleko od siebie.
+
+8
+Co to jest Wi-Fi?
+Zestaw standardów i protokołów do budowy bezprzewodowych sieci.
+
+9
+Co to jest WLAN?
+Sieć lokalna oparta o technologie bezprzewodowe.
+
+10
+Co to jest technologia MIMO?
+Technologia transmisji wieloantenowej.
+
+11
+Co to jest access point (AP)?
+Urządzenie warstwy łącza posiadające adres MAC i pozwalające na podłączanie się do sieci bezprzewodowo (analogicznie do przełącznika).
+
+12
+Jakie typy ramek występują w Wi-Fi?
+Zarządzające (odpowiedzialne za przyłączanie klienta do sieci), sterujące (np. do potwierdzeń) i danych.
+
+13
+Czym są ramki nawigacyjne (Beacon)?
+To ramki wysyłane na potrzeby skanowania pasywnego, zawierające identyfikator SSID, informacje o zabezpieczeniach i prędkościach transmisji.
+
+14
+Na czym polega skanowanie pasywne?
+Klient skanuje pasma i oczekuje na otrzymanie ramki nawigacyjnej.
+
+15
+Na czym polega skanowanie aktywne?
+Klient rozgłasza ramki sondujące i oczekuje odpowiedzi od stacji nadawczych.
+
+16
+Jakie są algorytmy szyfrowania stosowane w Wi-FI?
+WEP, WPA, WPA2, WPA3
+
+17
+Co to jest CSMA?
+Protokół wielotransmisji (transmisji przez wielu nadawców jednym kanałem).
+
+18
+Co to jest CSMA/CA?
+Protokół wielotransmisji z unikaniem kolizji.
+
+19
+Na jakim paśmie działa bluetooth?
+2,4 GHz
+
+20
+Na jakich pasmach działa Wi-Fi?
+2,4 GHz lub 5 GHz
