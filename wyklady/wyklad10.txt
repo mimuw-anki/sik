@@ -1,0 +1,39 @@
+deck_id: 3892092678
+deck_name: Sieci komputerowe MIMUW
+file_id: sik-wyklad-10
+
+1
+Czym jest Ethernet?
+To zbiór standardów technologii używanych do tworzenia lokalnych sieci komputerowych.
+
+2
+Jak wygląda topologia ethernetowa magistrala (ang. bus)?
+Cała sieć działa jak sieć rozgłaszjąca - każda ramka wysyłana przez nadawcę jest przetwarzana przez wszystkie inne hosty w sieci. 
+
+3
+Jak wygląda topologia ethernetowa gwiazda z koncentratorem (ang. hub)?
+Działa podobnie jak magistrala, ale hosty nie są podłączone do jednego kabelka, tylko do centralnego urządzenia (koncentratora), które sprzętowo rozgłasza komunikaty do wszystkich hostów.
+
+4
+Jak wygląda topologia ethernetowa gwiazda z przełącznikiem (ang. switch)?
+Jest to ulepszona wersja gwiazdy z koncentratorem. Przełącznik analizuje ramki i wie do którego hosta przekazać dane, dzięki czemu unika się rozgłaszania.
+
+5
+Dlaczego w ramce Ethernetowej adres docelowy znajduje się przed adresem źródłowym?
+Żeby umożliwić szybsze sprawdzenie, czy ramka jest adresowana do nas.
+
+6
+Co to jest VLAN?
+Wirtualna podsieć w ramach większej sieci fizycznej.
+
+7
+Czym są programowalne sieci komputerowe (SDN)?
+To rozwiązanie w którym rozdzielamy płaszczyznę transmisji danych od płaszczyzny sterowania i przełączniki SDN są dynamicznie konfigurowane i sterowane przez programowalne kontrolery.
+
+8
+Co nazywamy przełącznikami SDN?
+Zarówno przełączniki z warstwy łącza jak i routery z warstwy sieci.
+
+9
+Co oznacza 40GBaseT?
+Rodzaj połączenia ethernetowego: szybkość 40 Gb/s, rodzaj sygnału (Base), nośnik fizyczny (T - skrętka).
