@@ -20,7 +20,7 @@ Signal to noise ratio - to miara mocy sygnału, stosunek sygnału do szumu odbie
 
 5
 Jak wpływa szybkość przesyłu na liczbę błędów dla ustalonej wartości SNR?
-Im wysza szybkość tym wyższy współczynnik błędów bitowych.
+Im wyższa szybkość tym wyższy współczynnik błędów bitowych.
 
 6
 Na czym polega problem ukrytego węzła w sieciach bezprzewodowych?
