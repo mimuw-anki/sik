@@ -1,0 +1,27 @@
+deck_id: 3892092678
+deck_name: Sieci komputerowe MIMUW
+file_id: sik-wyklad-13
+
+1
+Co to jest atak DoS?
+Jest to atak mający na celu uniemożliwienie dostępu do usługi. 
+
+2
+Jakie są typowe wektory ataku DoS?
+- Wykorzystanie luk w systemie lub aplikacji<br>- Zalewanie przepustowości pakietami UDP<br>- Zalewanie serwera połączeniami TCP uniemożliwiając przyjmowanie właściwych połączeń
+
+3
+Co to jest atak DDoS?
+To rozproszony atak DoS - ruch pochodzi z wielu źródeł (np. z botnetu).
+
+4
+Co to jest spoofing?
+Wysyłanie pakietów z fałszywym lub zmienionym adresem źródłowym, docelowym lub zawartością.
+
+5
+Co to jest atak man in the middle?
+Atak polegający na podsłuchiwaniu i modyfikacji wiadomości przesyłanych między dwiema stronami bez ich wiedzy.
+
+6
+Jakie są cechy bezpiecznej komunikacji?
+Poufność, integralność i uwierzytelnianie punktów końcowych.
