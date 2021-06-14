@@ -10,13 +10,9 @@ Próbkuje się sygnał wejściowy z ustaloną częstotliwością (np. 8000 Hz) a
 Na czym polega strumieniowanie UDP?
 Serwer przesyła w stałym tempie dane z szybkością dostosowaną do szybkości odtwarzania przez klienta. 
 
-3
-Na czym polega strumieniowanie UDP?
-Serwer przesyła w stałym tempie dane z szybkością dostosowaną do szybkości odtwarzania przez klienta. 
-
 4
 Co to jest RTP?
-To pularny protokół określający format pakietów strumieniowanych po UDP.
+To popularny protokół określający format pakietów strumieniowanych po UDP.
 
 5
 W jaki sposób przesyła się informacje kontrolne podczas strumieniowania UDP?
