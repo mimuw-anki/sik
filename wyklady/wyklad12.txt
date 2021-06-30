@@ -1,0 +1,40 @@
+deck_id: 3892092678
+deck_name: Sieci komputerowe MIMUW
+file_id: sik-wyklad-12
+
+1
+Jak koduje się dźwięk?
+Próbkuje się sygnał wejściowy z ustaloną częstotliwością (np. 8000 Hz) a wartość wczytaną (liczba rzeczywista) zmienia się na liczbę całkowitą z ustalonego przedziału (np. 8 bitową).
+
+2
+Na czym polega strumieniowanie UDP?
+Serwer przesyła w stałym tempie dane z szybkością dostosowaną do szybkości odtwarzania przez klienta. 
+
+4
+Co to jest RTP?
+To popularny protokół określający format pakietów strumieniowanych po UDP.
+
+5
+W jaki sposób przesyła się informacje kontrolne podczas strumieniowania UDP?
+Zazwyczaj korzysta się z dodatkowego połączenia do sterowania sesją, np. używając protokołu RTSP.
+
+6
+Na czym polega strumieniowanie HTTP?
+Nagranie jest zwykłym plikiem dostępnym pod adresem URL. Klient utrzymuje bufor danych i zaczyna odtwarzanie kiedy ilość danych w buforze przekroczy wartość progową. 
+
+7
+Na czym polega adaptacyjne strumieniowanie HTTP (DASH, MPEG-DASH)?
+Wideo jest zakodowane w kilku wersjach (różne bitrate), na serwerze znajduje się plik manifestujący opisujący dostępne wersje. Bazując na tych danych klient dynamicznie dostosowuje swoje żądania bazując na przepustowości łącza.
+
+8
+Co to jest CDN?
+Content delivery network - rozproszona sieć serwerów przechowującego kopie danych. Żądania dostępu do danych przekierowywane są do najbliższego węzła CDN.
+
+9
+W jakim celu stosuje się wymiarowanie sieci?
+W celu uniknięcia przeciążenia sieci i jego skutków - opóźnień, fluktuacji i utraty pakietów.
+
+10
+Na czym polega wymiarowanie sieci?
+Jest to takie projektowanie topologii sieci aby była ona w stanie zapewnić zakładaną wydajność i przepustowość.
+ 
